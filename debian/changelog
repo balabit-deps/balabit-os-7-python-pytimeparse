@@ -1,0 +1,21 @@
+python-pytimeparse (1.1.5-2) unstable; urgency=medium
+
+  * Fixed VCS URLs (https).
+  * d/rules: Changed UPSTREAM_GIT protocol to https
+  * d/s/options: extend-diff-ignore of .gitreview
+  * d/control: Using OpenStack's Gerrit as VCS URLs.
+
+ -- Ondřej Nový <novy@ondrej.org>  Sun, 28 Feb 2016 15:47:55 +0100
+
+python-pytimeparse (1.1.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Removed python-future as (build-)depends.
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 10 Sep 2015 15:55:46 +0200
+
+python-pytimeparse (1.1.4-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #782306)
+
+ -- Thomas Goirand <zigo@debian.org>  Fri, 27 Mar 2015 15:48:55 +0100
